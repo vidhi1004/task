@@ -80,3 +80,14 @@ Most users just "Browse" (Read) rather than "Buy" (Write). We can create "copy" 
 ### Rate Limiting:
 
 To prevent bots or single users from crashing the server, we can add a limit on how many requests a person can make per minute.
+
+---
+
+## 🧪 Testing
+
+To run the test
+
+```bash
+docker-compose exce web python manage.py test apps
+```
+
